@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Mini-Shopping-List/static/css/main.75bb2a2b.chunk.css",
+    "main.js": "/React-Mini-Shopping-List/static/js/main.49b8ddab.chunk.js",
+    "main.js.map": "/React-Mini-Shopping-List/static/js/main.49b8ddab.chunk.js.map",
+    "runtime-main.js": "/React-Mini-Shopping-List/static/js/runtime-main.cf80666a.js",
+    "runtime-main.js.map": "/React-Mini-Shopping-List/static/js/runtime-main.cf80666a.js.map",
+    "static/js/2.a508cb6c.chunk.js": "/React-Mini-Shopping-List/static/js/2.a508cb6c.chunk.js",
+    "static/js/2.a508cb6c.chunk.js.map": "/React-Mini-Shopping-List/static/js/2.a508cb6c.chunk.js.map",
+    "index.html": "/React-Mini-Shopping-List/index.html",
+    "static/css/main.75bb2a2b.chunk.css.map": "/React-Mini-Shopping-List/static/css/main.75bb2a2b.chunk.css.map",
+    "static/js/2.a508cb6c.chunk.js.LICENSE.txt": "/React-Mini-Shopping-List/static/js/2.a508cb6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf80666a.js",
+    "static/js/2.a508cb6c.chunk.js",
+    "static/css/main.75bb2a2b.chunk.css",
+    "static/js/main.49b8ddab.chunk.js"
+  ]
+}
