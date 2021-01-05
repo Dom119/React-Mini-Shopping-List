@@ -1,13 +1,121 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: rgb(231, 230, 181);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping {
+  background-color: rgb(235, 181, 55);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.item,
+.total {
+  width: 400px;
+  padding: 15px 30px 15px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.input:focus,
+.ticked:focus {
+  outline: none;
+}
+
+.btn {
+  background: chocolate;
+  color: white;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.reaction {
+  transition: all 0.3s ease-in-out;
+}
+.reaction:hover {
+  transform: scale(0.95);
+}
+
+.item {
+  background: white;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.info-front,
+.info-back,
+.info-middle {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.ticked {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: orange;
+  border: orange;
+  margin: 0px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticked i {
+  color: rgb(255, 102, 0);
+}
+
+.info-back {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-back .less,
+.info-back .more {
+  padding: 5px;
+  background: white;
+  border: none;
+}
+
+.info-middle {
+  transform: translateX(50px);
+}
+
+.less:focus,
+.more:focus {
+  outline: none;
 }
